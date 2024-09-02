@@ -1,0 +1,112 @@
+body {
+
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-image: url('./assets/background-image.png');
+  background-size: cover;
+  background-position: center;
+}
+
+#tamanhoPapel {
+  display: block;
+  width: 100px; /* ajuste o valor para o tamanho desejado */
+  height: 80px; /* ajuste o valor para o tamanho desejado */
+  max-width: 100%;
+  max-height: 100%;
+  transform: scale(1.5);
+}
+#tamanhoTesoura {
+  display: block; /* change from block to inline-block */
+  width: 80px; /* adjust the value to the desired size */
+  height: 80px; /* adjust the value to the desired size */
+  max-width: 100%;
+  max-height: 100%;
+  transform: scale(1.5);
+}
+#tamanhoPedra {
+  display: block;
+  width: 80px; /* ajuste o valor para o tamanho desejado */
+  height: 80px; /* ajuste o valor para o tamanho desejado */
+  max-width: 100%;
+  max-height: 100%;
+  transform: scale(1.5);
+}
+
+.jokenpo-header {
+  margin-bottom: 20px;
+}
+
+.jokenpo-header h1 {
+  font-size: 70px;
+  font-weight: bold;
+  color: #4174ff;
+  text-align: center;
+}
+
+.jokenpo-choices {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  align-items: center;
+
+}
+
+.jokenpo-choices button {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  padding: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #797979;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.jokenpo-choices button:hover {
+  background-color: #f5f5f5;
+}
+
+.jokenpo-choices button:active {
+  background-color: #ff9595;
+}
+
+.jokenpo-result {
+  margin-bottom: 20px;
+  display: flex; /* add this to center the image vertically and horizontally */
+  justify-content: center; /* add this to center the image horizontally */
+  align-items: center;
+}
+
+.jokenpo-result p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.jokenpo-player-choice {
+  margin-bottom: 20px;
+  display: flex; /* add this to center the image vertically and horizontally */
+  justify-content: center; /* add this to center the image horizontally */
+  align-items: center;
+}
+
+.jokenpo-player-choice p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.jokenpo-computer-choice {
+  margin-bottom: 20px;
+  display: flex; /* add this to center the image vertically and horizontally */
+  justify-content: center; /* add this to center the image horizontally */
+  align-items: center;
+}
+
+.jokenpo-computer-choice p {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+}
